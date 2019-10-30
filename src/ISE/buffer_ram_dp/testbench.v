@@ -22,9 +22,9 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module TB_ram;
+module testbench;
 
-	/ Inputs
+	// Inputs
 	reg clk;
 	reg [16:0] addr_in;
 	reg [15:0] data_in;

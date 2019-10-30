@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/juan/Documentos/Electronica DIgital/buffer_ram_dp/buffer_ram_dp/testbench_isim_beh.exe" -prj "/home/juan/Documentos/Electronica DIgital/buffer_ram_dp/buffer_ram_dp/testbench_beh.prj" "work.testbench" "work.glbl" 

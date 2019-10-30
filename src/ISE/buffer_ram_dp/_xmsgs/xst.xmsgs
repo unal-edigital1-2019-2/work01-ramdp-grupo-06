@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="2546" delta="old" >&quot;<arg fmt="%s" index="1">buffer_ram_dp.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>: reading initialization file &quot;<arg fmt="%s" index="3">/home/juan/Documentos/Electronica DIgital/buffer_ram_dp/buffer_ram_dp/image.men</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="2319" delta="old" >&quot;<arg fmt="%s" index="1">buffer_ram_dp.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>: Signal <arg fmt="%s" index="3">ram</arg> in initial block is partially initialized. The initialization will be ignored.
+</msg>
+
+<msg type="info" file="Xst" num="3230" delta="old" >The RAM description &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt; will not be implemented on the device block RAM because of limited available resources. If you would like this RAM to be implemented in block RAM, please select a larger device or increase the value specified by the BRAM_Utilization_Ratio constraint.
+</msg>
+
+</messages>

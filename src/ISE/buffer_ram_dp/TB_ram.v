@@ -4,10 +4,10 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   09:20:13 10/29/2019
+// Create Date:   14:41:52 10/22/2019
 // Design Name:   buffer_ram_dp
-// Module Name:   /home/juan/Documentos/Electronica DIgital/buffer_ram_dp/buffer_ram_dp/testbench.v
-// Project Name:  buffer_ram_dp
+// Module Name:   C:/Users/UECCI/Documents/GitHub/SPARTAN6-ATMEGA-MAX5864/lab/P001-ProyectoCamara/src/ramdp/TB_ram.v
+// Project Name:  P001-ProyectoCamara
 // Target Device:  
 // Tool versions:  
 // Description: 
@@ -24,12 +24,12 @@
 
 module TB_ram;
 
-	/ Inputs
+	// Inputs
 	reg clk;
-	reg [16:0] addr_in;
+	reg [14:0] addr_in;
 	reg [15:0] data_in;
 	reg regwrite;
-	reg [16:0] addr_out;
+	reg [14:0] addr_out;
 	reg regread;
 
 	// Outputs
@@ -55,14 +55,15 @@ module TB_ram;
 		addr_out = 0;
 		regread = 0;
 
-		// Wait 100 ns for global reset to finish
-		#100;
-        regread=1;
-	  for (addr_out = 76700; addr_out < 76801; addr_out = addr_out + 1) begin
+  // Adicionar las estimulos necesarios para simular la lectura y escritura de la memoria ram
+  
+		# 10 regread=1;
+		
+	//	  for (addr_out = 0; addr_out < 8; addr_out = addr_out + 1) begin
 			 
-			 #5 $display("El valor de memoria %d =  %d", addr_out,data_out) ;
+			 #5 $display("el valor de memoria %d =  %d", addr_out,data_out) ;
 
-		 end 
+		//  end 
 		  
 		  #10 
 		  addr_in=0;
@@ -74,13 +75,12 @@ module TB_ram;
 		  addr_out=0;
 		  #1
 		  regread=1;
-		  $display("El valor de memoria %d =  %d", addr_out,data_out) ;
+		  $display("el valor de memoria %d =  %d", addr_out,data_out) ;
 
 		  
 		// Add stimulus here
 
 	end
-    always #1 clk= ~clk;  
-
+	always #1 clk = ~clk ;
 endmodule
 

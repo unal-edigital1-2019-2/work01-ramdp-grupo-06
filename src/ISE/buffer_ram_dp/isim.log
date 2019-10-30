@@ -1,0 +1,116 @@
+ISim log file
+Running: /home/juan/Documentos/Electronica DIgital/buffer_ram_dp/buffer_ram_dp/testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/juan/Documentos/Electronica DIgital/buffer_ram_dp/buffer_ram_dp/testbench_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+El valor de memoria  76700 =   1849
+El valor de memoria  76701 =   1849
+El valor de memoria  76702 =   1849
+El valor de memoria  76703 =   1849
+El valor de memoria  76704 =   1849
+El valor de memoria  76705 =   1849
+El valor de memoria  76706 =   1849
+El valor de memoria  76707 =   1849
+El valor de memoria  76708 =   1849
+El valor de memoria  76709 =   1849
+El valor de memoria  76710 =   1849
+El valor de memoria  76711 =   1849
+El valor de memoria  76712 =   1849
+El valor de memoria  76713 =   1849
+El valor de memoria  76714 =   1849
+El valor de memoria  76715 =   1849
+El valor de memoria  76716 =   1849
+El valor de memoria  76717 =   1849
+El valor de memoria  76718 =   1849
+El valor de memoria  76719 =   1849
+El valor de memoria  76720 =   1849
+El valor de memoria  76721 =   1849
+El valor de memoria  76722 =   1849
+El valor de memoria  76723 =   1849
+El valor de memoria  76724 =   1849
+El valor de memoria  76725 =   1849
+El valor de memoria  76726 =   1849
+El valor de memoria  76727 =   1849
+El valor de memoria  76728 =   1849
+El valor de memoria  76729 =   1849
+El valor de memoria  76730 =   1849
+El valor de memoria  76731 =   1849
+El valor de memoria  76732 =   1849
+El valor de memoria  76733 =   1849
+El valor de memoria  76734 =   1849
+El valor de memoria  76735 =   1849
+El valor de memoria  76736 =   1849
+El valor de memoria  76737 =   1849
+El valor de memoria  76738 =   1849
+El valor de memoria  76739 =   1849
+El valor de memoria  76740 =   1849
+El valor de memoria  76741 =   1849
+El valor de memoria  76742 =   1849
+El valor de memoria  76743 =   1849
+El valor de memoria  76744 =   1849
+El valor de memoria  76745 =   1849
+El valor de memoria  76746 =   1849
+El valor de memoria  76747 =   1849
+El valor de memoria  76748 =   1849
+El valor de memoria  76749 =   1849
+El valor de memoria  76750 =   1849
+El valor de memoria  76751 =   1849
+El valor de memoria  76752 =   1849
+El valor de memoria  76753 =   1849
+El valor de memoria  76754 =   1849
+El valor de memoria  76755 =   1849
+El valor de memoria  76756 =   1849
+El valor de memoria  76757 =   1849
+El valor de memoria  76758 =   1849
+El valor de memoria  76759 =   1849
+El valor de memoria  76760 =   1849
+El valor de memoria  76761 =   1849
+El valor de memoria  76762 =   1849
+El valor de memoria  76763 =   1849
+El valor de memoria  76764 =   1849
+El valor de memoria  76765 =   1849
+El valor de memoria  76766 =   1849
+El valor de memoria  76767 =   1849
+El valor de memoria  76768 =   1849
+El valor de memoria  76769 =   1849
+El valor de memoria  76770 =   1849
+El valor de memoria  76771 =   1849
+El valor de memoria  76772 =   1849
+El valor de memoria  76773 =   1849
+El valor de memoria  76774 =   1849
+El valor de memoria  76775 =   1849
+El valor de memoria  76776 =   1849
+El valor de memoria  76777 =   1849
+El valor de memoria  76778 =   1849
+El valor de memoria  76779 =   1849
+El valor de memoria  76780 =   1849
+El valor de memoria  76781 =   1849
+El valor de memoria  76782 =   1849
+El valor de memoria  76783 =   1849
+El valor de memoria  76784 =   1849
+El valor de memoria  76785 =   1849
+El valor de memoria  76786 =   1849
+El valor de memoria  76787 =   1849
+El valor de memoria  76788 =   1849
+El valor de memoria  76789 =   1849
+El valor de memoria  76790 =   1849
+El valor de memoria  76791 =   1849
+El valor de memoria  76792 =   1849
+El valor de memoria  76793 =   1849
+El valor de memoria  76794 =   1849
+El valor de memoria  76795 =   1849
+El valor de memoria  76796 =   1849
+El valor de memoria  76797 =   1849
+El valor de memoria  76798 =   4660
+El valor de memoria  76799 =   1849
+El valor de memoria  76800 =      x
+El valor de memoria      0 =    234
