@@ -58,21 +58,22 @@ Dirección 0D | Common control 4 (Average option, same value as COM17)
 ------------ | -------------
   4 Bit[5:4] | 00:Full window
 
-.|01:1/2 window
+. |01:1/2 window
 
-.|10:1/4 window
+. |10:1/4 window
 
-.|11:1/4 window
------------- | -------------
+. |11:1/4 window
+
 
 Dirección 42 | Common control 17
+------------ | -------------
 Bit[7:6] | 00:Normal
 
-.|01:1/2
+. |01:1/2
 
-.|10:1/4
+. |10:1/4
 
-.|11:1/4
+. |11:1/4
 
 Página 12 en Datasheet
 
@@ -126,6 +127,7 @@ Para el testbench se eligó el siguiente formato de color de esta manera, visto 
 
 ![color](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/color.png)
 
+El valor 1849 es la forma decimal del color dado, realizando la prueba de lectura de datos de entrada a la memoria:
 
 ![captura](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/captura.png)
 
