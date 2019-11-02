@@ -57,33 +57,33 @@ Página 13 en Datasheet
 
 Dirección 0D | Common control 4 Bit [5:4] (Average option, same value as COM17)
 ------------ | -------------
-00|Full window
+00 | Full window
 
-01| 1/2 window
+01 | 1/2 window
 
-10| 1/4 window
+10 | 1/4 window
 
-11| 1/4 window
+11 | 1/4 window
 
 
 Dirección 42 | Common control 17 Bit [7:6] 
 ------------ | -------------
-00|Normal
+00 | Normal
 
-01| 1/2
+01 | 1/2
 
-10| 1/4
+10 | 1/4
 
-11| 1/4
+11 | 1/4
 
 Página 12 en Datasheet
 
 * Configurar el formato y el tamaño del pixel
 
 
-- Dirección 40, COM15 Bit[5:4]=01.
+Dirección 40, COM15 Bit[5:4]=01.
 
-- Dirección 12, COM7 Bit[2] (Output Format - RGB selection)
+Dirección 12, COM7 Bit[2] (Output Format - RGB selection)
 
 Bit[1] (Color Bar)
 
@@ -94,17 +94,18 @@ Página 18 en datasheet
 
 * Habilitar el test de barra de colores
 
-- Dirección 70, SCALING_XSC Bit[7] y
+Dirección 70, SCALING_XSC Bit[7] y
 
 Bit[6:0] (Horizontal scale factor)
 
-- Dirección 71, SCALING_YSC Bit[7] y 
+Dirección 71, SCALING_YSC Bit[7] y 
 
 Bit[6:0] (Vertical scale factor)
 
 (XBit[7], YBit[7]) (00: No test output, 01: Shifting "1", 10: 8-bar color bar, 11: Fade to gray color bar)
 
 ## Diagrama de Caja Negra
+
 Finalmente luego de haber planteado todas las *especificaciones* de la memoria RAM se realizó el diagrama de caja negra
 
 ![Caja Negra](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/cajanegra.png)
