@@ -41,6 +41,7 @@ Donde el formato será RGB565, el cuál está estructurado de la siguiente maner
 ![RGB565](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/RGB565.png)
 
 *Podría haberse usado el formato YUV 4:2:2, el cuál al ser de 8 bits por cada pixel, permitiría ahorrar memoria al coste de bajar un poco la calidad del color, pero sin embargo, no se utilizó dada la incertidumbre con respecto al monitor que se iba a usar, en el cual se iba a mostrar la imágen el cuál para este formato debería ser VGA*
+
 ## Pregunta 3:
 
 ¿Cuáles son los registros de configuración de la cámara OV7670 que permiten tener la configuración dada en la pregunta 2? Revisen los registros dados de la página 11 a la 26 del datasheet e indiquen la configuración para:
@@ -56,21 +57,21 @@ Dirección 0D | Common control 4 (Average option, same value as COM17)
 ------------ | -------------
   4 Bit[5:4] | 00:Full window
 
-01:1/2 window
+.|01:1/2 window
 
-10:1/4 window
+.|10:1/4 window
 
-11:1/4 window
+.|11:1/4 window
 ------------ | -------------
 
 Dirección 42 | Common control 17
 Bit[7:6] | 00:Normal
 
-01:1/2
+.|01:1/2
 
-10:1/4
+.|10:1/4
 
-11:1/4
+.|11:1/4
 
 
 
