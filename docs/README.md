@@ -55,26 +55,26 @@ Página 13 en Datasheet
     
 * Habilitar el escalado
 
-Dirección 0D | Common control 4 (Average option, same value as COM17)
+Dirección 0D | Common control 4 Bit [5:4] (Average option, same value as COM17)
 ------------ | -------------
-  4 Bit [5:4] | 00:Full window
+00|Full window
 
-. |01:1/2 window
+01| 1/2 window
 
-. |10:1/4 window
+10| 1/4 window
 
-. |11:1/4 window
+11| 1/4 window
 
 
-Dirección 42 | Common control 17
+Dirección 42 | Common control 17 Bit [7:6] 
 ------------ | -------------
-Bit [7:6] | 00:Normal
+00|Normal
 
-' |01:1/2
+01| 1/2
 
-. |10:1/4
+10| 1/4
 
-' |11:1/4
+11| 1/4
 
 Página 12 en Datasheet
 
@@ -116,13 +116,13 @@ Una vez resultas las anteriores preguntas se debe descargar el paquete de trabaj
 
 Una vez clone el repositorio, realice lo siguiente:
 
-    Comprenda cada línea del código HDL del archivo buffer_ram_dp.v que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo.
-    Configure los parámetros del ancho de palabra DW y tamaño de dirección AW, según los resultados dados en la pregunta 1 y 2.
-    Cree el proyecto HDL donde el top sea buffer_ram_dp.v. Puede usar ise o construir el makefile.
-    Modifique el archivo image.men, para que contenga todos los pixeles de un solo color y que corresponda a la memoria calculada.
-    Modifique el archivo TB_ram, con el fin de adicionar las estímulos necesarios para simular la lectura y escritura de la memoria ram. Genera la simulación
-    Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
-    Realice la respectiva publicación del repositorio antes de la fecha dada.
+- Comprenda cada línea del código HDL del archivo buffer_ram_dp.v que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo.
+- Configure los parámetros del ancho de palabra DW y tamaño de dirección AW, según los resultados dados en la pregunta 1 y 2.
+- Cree el proyecto HDL donde el top sea buffer_ram_dp.v. Puede usar ise o construir el makefile.
+- Modifique el archivo image.men, para que contenga todos los pixeles de un solo color y que corresponda a la memoria calculada.
+- Modifique el archivo TB_ram, con el fin de adicionar las estímulos necesarios para simular la lectura y escritura de la memoria ram. Genera la simulación
+- Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
+- Realice la respectiva publicación del repositorio antes de la fecha dada.
 
 Para el testbench se eligó el siguiente formato de color de esta manera, visto también en otros formatos, se rellenó el archivo image.men de 76800 datos con este valor y se hizo la respectiva simulación.
 
