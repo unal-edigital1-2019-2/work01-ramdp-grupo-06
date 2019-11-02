@@ -8,4 +8,4 @@ Juan Pablo Fiagá Rodríguez   1002461990
 * Simular e implementar los diseños hechos.
 ## Código
 ## Conclusiones
-
+![Caja Negra](./figs/cajanegra.png)
