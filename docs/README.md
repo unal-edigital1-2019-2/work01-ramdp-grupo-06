@@ -48,8 +48,9 @@ Donde el formato será RGB565, el cuál está estructurado de la siguiente maner
 
 * Restablecer todos los registros
 
-Dirección 12, COM7 Bit[7] (SCCB Register Reset, 0: No change, 1: Resets all registers to default values)
+- Dirección 12, COM7 Bit[7] (SCCB Register Reset, 0: No change, 1: Resets all registers to default values)
 
+Página 13 en Datasheet
     
 * Habilitar el escalado
 
@@ -73,29 +74,29 @@ Bit[7:6] | 00:Normal
 
 .|11:1/4
 
-
+Página 12 en Datasheet
 
 * Configurar el formato y el tamaño del pixel
 
-Configurar el formato y tamaño del pixel.
 
-Dirección 40, COM15 Bit[5:4]=01.
+- Dirección 40, COM15 Bit[5:4]=01.
 
-Dirección 12, COM7 Bit[2] (
+- Dirección 12, COM7 Bit[2] (Output Format - RGB selection)
 
-Output Format - RGB selection),
-
-Bit[1] (Color Bar),
+Bit[1] (Color Bar)
 
 Bit[0] (Output form - Raw RGB).
 
+Página 18 en datasheet
+
+
 * Habilitar el test de barra de colores
 
-    Dirección 70, SCALING_XSC Bit[7] y
+- Dirección 70, SCALING_XSC Bit[7] y
 
 Bit[6:0] (Horizontal scale factor)
 
-Dirección 71, SCALING_YSC Bit[7] y 
+- Dirección 71, SCALING_YSC Bit[7] y 
 
 Bit[6:0] (Vertical scale factor)
 
@@ -121,11 +122,12 @@ Una vez clone el repositorio, realice lo siguiente:
     Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
     Realice la respectiva publicación del repositorio antes de la fecha dada.
 
+Para el testbench se eligó el siguiente formato de color de esta manera, visto también en otros formatos, se rellenó el archivo image.men de 76800 datos con este valor y se hizo la respectiva simulación.
+
 ![color](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/color.png)
 
 
-
-
+![captura](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/captura.png)
 
 
 

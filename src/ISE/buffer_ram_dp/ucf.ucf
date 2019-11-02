@@ -1,0 +1,2 @@
+
+NET "clk"	LOC = "E3" | IOSTANDARD = "LVCMOS33";
