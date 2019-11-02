@@ -1,7 +1,8 @@
 # GRUPO DE TRABAJO 06
 ## INTEGRANTES DEL GRUPO
 #### Juan Pablo Fiagá Rodríguez   1002461990
-
+#### Iván leonardo Tamayo Pérez   1052394290
+#### Juan Alonso Rubiano Portela    80759456
 
 ## Objetivos
 * Analizar la máxima memoria RAM que se puede alojar en la FPGA (no mayor al 75%).
@@ -56,7 +57,7 @@ Página 13 en Datasheet
 
 Dirección 0D | Common control 4 (Average option, same value as COM17)
 ------------ | -------------
-  4 Bit[5:4] | 00:Full window
+  4 Bit [5:4] | 00:Full window
 
 . |01:1/2 window
 
@@ -67,13 +68,13 @@ Dirección 0D | Common control 4 (Average option, same value as COM17)
 
 Dirección 42 | Common control 17
 ------------ | -------------
-Bit[7:6] | 00:Normal
+Bit [7:6] | 00:Normal
 
-. |01:1/2
+' |01:1/2
 
 . |10:1/4
 
-. |11:1/4
+' |11:1/4
 
 Página 12 en Datasheet
 
