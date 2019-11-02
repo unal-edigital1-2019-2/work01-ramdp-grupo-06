@@ -49,7 +49,7 @@ Donde el formato será RGB565, el cuál está estructurado de la siguiente maner
 
 * Restablecer todos los registros
 
-- Dirección 12, COM7 Bit[7] (SCCB Register Reset, 0: No change, 1: Resets all registers to default values)
+Dirección 12, COM7 Bit[7] (SCCB Register Reset, 0: No change, 1: Resets all registers to default values)
 
 Página 13 en Datasheet
     
@@ -58,23 +58,17 @@ Página 13 en Datasheet
 Dirección 0D | Common control 4 Bit [5:4] (Average option, same value as COM17)
 ------------ | -------------
 00 | Full window
-
 01 | 1/2 window
-
 10 | 1/4 window
-
 11 | 1/4 window
 
 
 Dirección 42 | Common control 17 Bit [7:6] 
 ------------ | -------------
 00 | Normal
-
-01 | 1/2
-
-10 | 1/4
-
-11 | 1/4
+01 | 1/2 window
+10 | 1/4 window
+11 | 1/4 window
 
 Página 12 en Datasheet
 
