@@ -4,7 +4,7 @@
 
 
 ## Objetivos
-* Analizar la máxima memoria RAM que se puede alojar en la FPGA.
+* Analizar la máxima memoria RAM que se puede alojar en la FPGA (no mayor al 75%).
 * Plantear el método de adquisición de los datos de la cámara.
 * Simular e implementar los diseños hechos.
 
@@ -12,11 +12,28 @@
 
 ¿Cuál es el tamaño máximo de buffer de memoria que puede crear?, se recomienda leer las especificaciones de la FPGA que está usando cada grupo. La respuesta se debe dar en bytes.
 
+El tamaño calculado para la matriz fue hecho de la siguiente forma:
 
+![calculos](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/calculos.png)
+
+Teniendo en cuenta que el tamaño en bits del block RAM de la Nexys 4: FPGA Artix-7 es de 4860 Kb se verifica que **Tamaño de datos < Tamaño de Matriz < Tamaño RAM FPGA**.
+
+Dando un porcentaje usado menor al 50%.
+![porcentaje](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/porcentaje.png)
+
+Finalmente **AW=17** y **DW=16**.
+
+![Matriz](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/Matriz.png)
 
 ## Pregunta 2:
 
-¿Cuál formato y tamaño de imagen de la cámara OV7670 que se ajusta mejor al tamaño de memoria calculado en la pregunta 1?. Para ello revisar la hoja de datos de la cámara OV7670. Revisar el datasheet que se encuentra aquí
+¿Cuál formato y tamaño de imagen de la cámara OV7670 se ajusta mejor al tamaño de memoria calculado en la pregunta 1?. Para ello revisar la hoja de datos de la cámara OV7670. Revisar el datasheet que se encuentra aquí
+
+![320x240sample](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/320x240sample.png)
+
+
+![RGB565](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/RGB565.png)
+
 
 ## Pregunta 3:
 
@@ -41,12 +58,13 @@ Una vez clone el repositorio, realice lo siguiente:
     Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
     Realice la respectiva publicación del repositorio antes de la fecha dada.
 
+![color](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/color.png)
 
-![Caja Negra](./figs/cajanegra.png)
-![color](./figs/color.png)
-![Matriz](./figs/Matriz.png)
-![RGB565](./figs/RGB565.png)
-![calculos](./figs/calculos.png)
-![320x240sample](./figs/320x240sample.png)
+## Diagrama de Caja Negra
+![Caja Negra](https://github.com/unal-edigital1-2019-2/work01-ramdp-grupo-06/blob/master/docs/figs/cajanegra.png)
+
+
+
+
 
 
